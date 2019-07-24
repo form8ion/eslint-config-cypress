@@ -1,0 +1,32 @@
+{
+  "name": "@form8ion/eslint-config-cypress",
+  "description": "Shareable config for ESLint for projects that use Cypress",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "form8ion/eslint-config-cypress",
+  "bugs": "https://github.com/form8ion/eslint-config-cypress/issues",
+  "homepage": "https://npm.im/@form8ion/eslint-config-cypress",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:md": "remark . --frail",
+    "lint:sensitive": "ban",
+    "lint:travis": "travis-lint .travis.yml"
+  },
+  "devDependencies": {
+    "@form8ion/commitlint-config": "^1.0.6",
+    "@form8ion/remark-lint-preset": "^1.0.1",
+    "ban-sensitive-files": "^1.9.2",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^7.0.0",
+    "travis-lint": "^1.0.0"
+  }
+}
