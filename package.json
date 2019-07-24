@@ -16,11 +16,13 @@
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
+    "lint:js": "eslint . --cache",
     "lint:sensitive": "ban",
     "lint:travis": "travis-lint .travis.yml"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "^1.0.6",
+    "@form8ion/eslint-config": "1.4.4",
     "@form8ion/remark-lint-preset": "^1.0.1",
     "ban-sensitive-files": "^1.9.2",
     "cz-conventional-changelog": "^3.0.2",
@@ -28,5 +30,8 @@
     "npm-run-all": "^4.1.5",
     "remark-cli": "^7.0.0",
     "travis-lint": "^1.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-cypress": "2.6.0"
   }
 }
