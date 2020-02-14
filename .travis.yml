@@ -1,7 +1,7 @@
 version: ~> 1.0
 notifications:
   email: false
-install:
+import:
   - form8ion/.travis-ci:node.yml
   - form8ion/.travis-ci:authenticated-semantic-release.yml
 before_script:
