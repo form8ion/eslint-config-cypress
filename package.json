@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "eslint-plugin-chai-friendly": "0.6.0",
-    "eslint-plugin-cypress": "2.10.3",
+    "eslint-plugin-cypress": "2.11.0",
     "eslint-plugin-mocha": "6.3.0"
   }
 }
