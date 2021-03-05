@@ -32,6 +32,6 @@
   "dependencies": {
     "eslint-plugin-chai-friendly": "0.6.0",
     "eslint-plugin-cypress": "2.11.2",
-    "eslint-plugin-mocha": "8.0.0"
+    "eslint-plugin-mocha": "8.1.0"
   }
 }
