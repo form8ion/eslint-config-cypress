@@ -7,7 +7,8 @@
     "index.js"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "repository": "form8ion/eslint-config-cypress",
   "bugs": "https://github.com/form8ion/eslint-config-cypress/issues",
