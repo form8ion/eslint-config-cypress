@@ -23,7 +23,7 @@
     "provenance": true
   },
   "dependencies": {
-    "eslint-plugin-chai-friendly": "0.7.3",
+    "eslint-plugin-chai-friendly": "0.7.4",
     "eslint-plugin-cypress": "2.15.1",
     "eslint-plugin-mocha": "10.2.0"
   },
